@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="container">
+        
+        
+    </div>
+
+    <div class="inputInfor">
+        <form action="">
+            <label for="id">Input Your Id:</label>
+            <input type="text" class="inputId" id="id">
+            <label for="name">Input Your Name:</label>
+            <input type="text" class="inputName" id="name">
+            <label for="name">Input Your Image:</label>
+            <input type="text" class="inputImage" id="image">
+            <label for="name">Input Your Created At:</label>
+            <input type="text" class="inputCreatedAt" id="created_at">
+        </form>
+
+    </div>
+    <div class="btn">
+        <button class="btnFunction" id="btnAdd" onclick="processAdd()" >ADD FROFILE</button>
+        <button class="btnFunction" id="btnUpdate" onclick="processUpdate()" >UPDATE FROFILE</button>
+        <button class="btnFunction" id="btnDelete" onclick="processDelete()" >DELETE FROFILE</button>
+    </div>
+
+    <script src="./ex1.js" type="module"></script>
+    <script src="./Employee.js" type="module"></script>
+    <script src="./ProcessAdd.js" type="module"></script>
+    <script src="./processDelete.js" type="module"></script>
+    <script src="./ProcessUpdate.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+
+       <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script
+    defer
+    src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            databaseURL: "https://manageremployee-a9f49.firebaseio.com",
+            apiKey: "AIzaSyDu_aNPJIgajg1YzaOvnPRZ8IVNfTmLgqw",
+        authDomain: "manageremployee-a9f49.firebaseapp.com",
+        projectId: "manageremployee-a9f49",
+        storageBucket: "manageremployee-a9f49.appspot.com",
+        messagingSenderId: "246982276121",
+        appId: "1:246982276121:web:7119dbf1717de2c235e688"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    
+        
+      </script>
+</head>
+<body>
+    <h2>EMPLOYEES MANAGER</h2>
+    <form action="" id="input-form" class="form">
+        <input type="text" id="name" placeholder="Name" >
+        <input type="text" id="email" placeholder="Email" >
+        <input type="text" id="age" placeholder="Age" >
+        <button id="saveData" class="saveBtn">Save Data</button>
+    </form>
+    
+
+    <table id="employee-table" class="tableEmployee">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+        </tr>
+    </table>
+    
+
+    <script src="./main.js" type="module"></script>
+</body>
+</html>

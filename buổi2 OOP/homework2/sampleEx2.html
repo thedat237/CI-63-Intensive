@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sampleEx2.css">
+</head>
+
+<body>
+
+    <!-------------------------- Houseware -------------------------->
+    <table class="container-houseware" style="width:50%" onload="getHouseware()">
+        <caption>Danh sách đồ gia dụng</caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Producer</th>
+            <th>Discount</th>
+            <th>Date Added</th>
+            <th>Reliability</th>
+        </tr>
+    </table>
+
+    <button onclick="addHouseware()">Thêm</button>
+    <button onclick="sellHouseware()">Bán Hàng</button>
+    <button onclick="countSell()">Tổng doanh thu</button>
+
+    <!-------------x------------ Houseware --------------x----------->
+
+
+    <!------------------------- Clothers -------------------------------->
+    <table class="container-clothers" style="width:50%" onload="getClothes()">
+        <caption>Danh sách quần áo</caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Producer</th>
+            <th>Discount</th>
+            <th>Date Added</th>
+            <th>Material</th>
+        </tr>
+    </table>
+
+    <button onclick="addClothes()">Thêm</button>
+    <button onclick="sellClothes()">Bán Hàng</button>
+    <button onclick="countSell()">Tổng doanh thu</button>
+
+    <!-------------x----------- Clothers ------------------x------------->
+
+
+    <!------------------------- Foods -------------------------------->
+    <table class="container-foods" style="width:50%" onload="getFoods()">
+        <caption>Danh sách đồ ăn</caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Producer</th>
+            <th>Discount</th>
+            <th>Date Added</th>
+            <th>Taste</th>
+        </tr>
+    </table>
+
+    <button onclick="addFoods()">Thêm</button>
+    <button onclick="sellFoods()">Bán Hàng</button>
+    <button onclick="countSell()">Tổng doanh thu</button>
+
+    <!-------------x-----------Foods ------------------x------------->
+
+    <script src="sampleEx2.js"></script>
+</body>
+
+</html>

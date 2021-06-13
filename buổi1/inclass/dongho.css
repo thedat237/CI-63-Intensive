@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #083535;
+  
+}
+
+#dong-ho h2{
+    position: relative;
+    display:block;
+    color:#fff;
+    text-align: center;
+    margin:10px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+#dong-ho #thoi-gian{
+    display: flex;
+}
+
+span{
+    position: relative;
+    display:block;
+    width:200px;
+    height: 160px;
+    background: gray;
+    color: #fff;
+    font-weight: 300;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+
