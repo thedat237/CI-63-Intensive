@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #21253f;
+}
+
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    color: #fff;
+}
+
+.header-title.active{
+    position: relative;
+    padding: 10px 10px;
+    background-color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.inner{
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: black;
+    padding: 30px 40px;
+}
+
+.inner-title{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.inner-link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Title{
+    font-weight: bold;
+}
+
+.inner-linkSearch{
+    display: flex;
+    align-items: center;
+}
+
+.inner-linkInput{
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(179, 177, 177);
+    border-radius: 5px;
+    margin-left: 10px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inner-linkBtn{
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #21253f;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inner-domain{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.inner-domainBtn{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.domainBtn{
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.domainBtn.active{
+    background-color: #21253f;
+    color: #fff;
+}
+
+.inner-tutorial{
+    margin-top: 30px;
+}
+
+.ads{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.ads-title.active{
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.inner-result{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: black;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-resultTitle{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.inner-resultEnd{
+    margin-top: 5px;
+    color: rgb(18, 190, 18);
+}
+
+.social{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialBtn{
+    cursor: pointer;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.socialBtn.fb{
+    background-color: rgb(6, 60, 114);
+}
+
+.socialBtn.tw{
+    background-color: rgb(51, 142, 233);
+}
+
+.socialBtn.mail{
+    background-color: gray;
+}
+
+.socialBtn.phone{
+    background-color: rgb(9, 170, 49);
+}
+
+.socialBtn.tele{
+    background-color: rgb(39, 125, 211);
+}
